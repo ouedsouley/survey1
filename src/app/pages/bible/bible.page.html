@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>bible</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" >
+  <h1>jean 3</h1>
+  <div *ngFor="let item of dataVerses">
+    {{item.verse}}
+    {{item.text}}
+  </div>
+    
+
+  
+</ion-content>
